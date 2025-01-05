@@ -73,7 +73,7 @@ function App() {
                   <FaWhatsapp className="mr-2" /> Chat on WhatsApp
                 </a>
                 <a
-                  href="https://www.google.com/maps/search/?q=Narayan+Mobile+Shop,+Nishatganj,+Lucknow"
+                  href="https://maps.app.goo.gl/AH6ZBwoy1HM2r2vF6"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-white hover:text-gray-300 transition duration-300"
