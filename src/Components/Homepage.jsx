@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
 
 import { Link } from "react-router-dom";
 
@@ -147,7 +146,7 @@ const Homepage = () => {
                 <img
                   src={product.imageUrl}
                   alt={product.product}
-                  className="w-full lg:w-1/3 h-48 object-cover"
+                  className="w-full lg:w-1/3 h-48 object-contain lg:object-cover"
                 />
 
                 {/* Product Details */}
@@ -251,12 +250,12 @@ const Homepage = () => {
               ❮
             </button>
 
-            <div className="max-w-md">
-              <div className="flex items-center justify-center mb-4">
+            <div className="  max-w-md mx-auto">
+              <div className="flex flex-col md:flex-row items-center justify-center mb-4">
                 <img
                   src={testimonials[currentIndex].image}
                   alt={`Reviewer ${currentIndex + 1}`}
-                  className="rounded-full mr-4"
+                  className="rounded-full mb-4 md:mb-0 md:mr-4 w-24 h-24 object-cover"
                 />
                 <div>
                   <blockquote className="italic text-gray-700 mb-4">
