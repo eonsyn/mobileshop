@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 import AboutUsPage from "./Components/AboutUsPage";
 import BlogPage from "./Components/BlogPage";
 import ContactUsPage from "./Components/ContactUsPage";
-import Homepage from "./Components/homepage";
+import Homepage from "./Components/Homepage";
 import Navigation from "./Components/Navigation";
 import ProductsPage from "./Components/ProductsPage";
 import ServicesPage from "./Components/ServicesPage";
